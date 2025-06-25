@@ -2,9 +2,7 @@ Jeffrey Chess
 
 ---
 
-========================
-=: Game instructions  :=
-========================
+Game instructions 
 
 Jeffrey Chess is Jeffrey Oduman's implementation of the game "Chess" in Java.
 The goal of this project was to implement chess using Java Swing.
@@ -21,9 +19,8 @@ En passant special move is not implemented for this version yet.
 
 ---
 
-========================
-=: Game status :=
-========================
+Game status 
+
 1. The game will show whose turn it is currently.
 2. The game will highlight the selected piece
 3. The game will highlight a king in check or checkmate and will show a status message saying which king is in check.
@@ -37,9 +34,8 @@ En passant special move is not implemented for this version yet.
 
 ---
 
-========================
-=: Known bugs :=
-========================
+Known bugs
+
 1. The detection of checkmate may not be perfect and may sometimes incorrectly identify a position as checkmate even though it isn't.
 2. Highlighting colours for visual cues may not be perfectly synchronised when a check or checkmate happens
    and may take an extra click on the board before the highlighting colour changes correctly.
@@ -48,9 +44,8 @@ En passant special move is not implemented for this version yet.
 
 ---
 
-========================
-=: Future additions :=
-========================
+Future additions 
+
 1. Implementing Undo Functionality that allows users to undo their last move if the other user accepts the request.
 2. Allowing the board to rotate at each turn so that both players have equal visibility of the board.
 3. Adding a timer to end the game if neither player resigns nor agrees to a draw within a certain time limit.
@@ -63,9 +58,8 @@ En passant special move is not implemented for this version yet.
 
 ---
 
-========================
-=: External Resources :=
-========================
+External Resources
+
 - https://en.m.wikipedia.org/wiki/File:Chess_Board.svg for the chess board
 - https://www.chess.com/forum/view/general/chessboard-sound-files?page=2 For the chess sounds
 - https://www.pngegg.com/en/search?q=chess For the chess pieces
